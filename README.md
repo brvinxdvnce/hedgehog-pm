@@ -2,38 +2,81 @@
 
 ## Диаграмма классов:
 
-![class_diagram](Artifacts/ClassDiagrams/24-09-2026/ClassDiagram.png)
+![ClassDiagramMain](Artifacts/ClassDiagrams/09-10-2026/ClassDiagramMain.png)
+
+![ClassDiagramProjectRoles](Artifacts/ClassDiagrams/09-10-2026/ClassDiagramProjectRoles.png)
+
+![ClassDiagramWorkspaceRoles](Artifacts/ClassDiagrams/09-10-2026/ClassDiagramWorkspaceRoles.png)
+
+![ClassDiagramSystemRoles](Artifacts/ClassDiagrams/09-10-2026/ClassDiagramSystemRoles.png)
+
+
+
+## Схема, представленная для большего понимания ролевой модели. Не претендует на строгую причастность к какой либо нотации, языку или спецификации: 
+
+![RolesLocationExampleScheme](Artifacts/Other/RolesLocationExampleScheme.png)
+
+
+
+
+## Permissions table: 
+
+![PermissionsTable](Artifacts/Other/PermissionsTable.png)
+
+
 
 ## Диаграммы обьектов:
 
+
 ### Пример структуры рабочего пространства, проектов и задач на примере проектов для стажировок на хитсе:
-![object_diagram](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramHITSInternships.png)
+![ObjectDiagramHITSInternships](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramHITSInternships.png)
 
 ### Пример структуры рабочего пространства, проектов и задач на примере базового курса по алгоритмике:
-![object_diagram](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramAlgos1.png)
+![ObjectDiagramAlgos1](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramAlgos1.png)
 
 ### Пример иной формы реализации курсов по алгоритмике на еже:
-![object_diagram](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramAlgos2.png)
+![ObjectDiagramAlgos2](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramAlgos2.png)
 
 ### Пример простой ролевой модели на примере курса основ прямого проектирования:
-![object_diagram](Artifacts/ObjectDiagrams/24-09-2026/ObjectDiagramRoleModel.png)
+![ObjectDiagramRoleModel](Artifacts/ObjectDiagrams/09-10-2026/ObjectDiagramRoleModel.png)
 
-## Матрица прав доступа (Частично неактуальна, сейчас отражает скорее набор потенциально заготовленных в системе ролей "по умолчанию"):
 
-![permissions_matrix](Artifacts/PermissionsMatrix/20-09-2026/PermissionsMatrix.png)
 
-## Use Cases:
 
-![UseCasesRoleInheritance](Artifacts/UseCases/24-09-2026/UseCasesRoleInheritance.png)
 
-![UseCasesUser](Artifacts/UseCases/20-09-2026/UseCasesUser.png)
+## Варианты использования:
 
-![UseCasesWorkSpaceMember](Artifacts/UseCases/24-09-2026/UseCasesWorkSpaceMember.png)
+![UseCasesLegend](Artifacts/UseCases/09-10-2026/UseCasesLegend.png)
 
-![UseCasesProjectMember](Artifacts/UseCases/20-09-2026/UseCasesProjectMember.png)
+![UseCasesUser](Artifacts/UseCases/09-10-2026/UseCasesUser.png)
 
-![UseCasesProjectOwner](Artifacts/UseCases/20-09-2026/UseCasesProjectOwner.png)
+![UseCasesSuperAdmin](Artifacts/UseCases/09-10-2026/UseCasesSuperAdmin.png)
 
-![UseCasesWorkSpaceOwner](Artifacts/UseCases/24-09-2026/UseCasesWorkSpaceOwner.png)
+![UseCasesWorkspaceCreator](Artifacts/UseCases/09-10-2026/UseCasesWorkspaceCreator.png)
 
-![UseCasesWorkSpaceOwner](Artifacts/UseCases/24-09-2026/UseCasesSystem.png)
+![UseCasesWorkspaceMember](Artifacts/UseCases/09-10-2026/UseCasesWorkspaceMember.png)
+
+![UseCasesWorkspaceAdmin](Artifacts/UseCases/09-10-2026/UseCasesWorkspaceAdmin.png)
+
+![UseCasesProjectMember](Artifacts/UseCases/09-10-2026/UseCasesProjectMember.png)
+
+![UseCasesProjectAdmin](Artifacts/UseCases/09-10-2026/UseCasesProjectAdmin.png)
+
+![UseCasesIntergarions](Artifacts/UseCases/09-10-2026/UseCasesIntergarions.png)
+
+
+
+
+
+## Рекомендации по разработке: 
+
+
+![DevReq](Artifacts/Other/DevReq.png)
+
+![DomainEvents](Artifacts/Other/DomainEvents.png)
+
+
+
+## Набор доступных фильтраций для трудозатрат и задач:
+
+![Filters](Artifacts/Other/Filters.png)
